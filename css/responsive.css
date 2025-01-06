@@ -1,0 +1,1191 @@
+
+/*
+##DEvice = Most of the smartphones mobiles(galaxi fold)
+##Screen = B/w 279px to 319px
+
+*/
+
+@media (min-width:279px) and (max-width:319px) {
+	/*css start*/
+
+
+.header .navbar-toggler{
+	border: 1px solid #473BF0;
+    border-radius: 3px;
+    
+
+
+}
+.header .navbar-toggler:focus {
+    text-decoration: none;
+    background: #473BF0;
+    outline: 0;
+    box-shadow: 0 0 2 #473BF0;
+}
+
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+
+.header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+        font-weight: 300;
+	
+}
+
+/*=========================
+   ** header menu code ***
+   =========================*/
+
+
+.header .navbar .navbar-nav .nav-item .nav-link{
+	margin: 0px 0px 0px 0px;
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px 0px;
+}
+
+/*=========================
+   ** banner code ***
+   =========================*/
+   .banner{
+   	padding: 30px 0px 0px;
+   }
+   .banner-inner {
+ 
+    padding: 10px 0px 30px;
+}
+   .banner-inner h1{
+     width: 100%;
+     font-size: 20px;
+     line-height: 1.3em;
+     margin: 0px 0px 10px 0px;
+    }
+
+   .banner-inner p{
+   	 width: 100%;
+     font-size: 11px;
+     margin: 0px 0px 10px 0px;
+
+   }
+   .banner-inner .btn-info {
+   	  font-size: 10px;
+      margin: 10px 0px 0px;
+    }
+   
+   .banner-inner .link {
+    margin: 10px 0px 0px 0px;
+    font-size: 11px;
+    
+}
+
+ /*=========================
+   ** alart  code ***
+   =========================*/
+   .alert-section {
+    padding: 20px 0px;
+
+   }
+
+   .alert-section p{
+   	font-size: 11px;
+   }
+
+
+   /*=========================
+   ** expart code ***
+   =========================*/
+   .expert-section {
+    padding: 30px 0px;
+}
+  .expert-section .expart-inner {
+    padding: 0px 0px 30px;
+}
+
+ .expert-section .expart-inner h2 {
+    font-size: 22px;
+    margin: 0px 0px 10px 0px;   
+}
+ .expert-section .expart-inner p {
+    width: 100%;
+    font-size: 11px;
+    margin: 0px 0px 10px 0px; 
+}
+  .expert-section .expart-inner .btn-info {
+    padding: 10px 15px;
+    margin: 10px 0px 0px 0px;
+    font-size: 11px;
+}
+.expert-section .img-fluid {
+    width: 100%;
+    
+}
+.expert-section .expart-right h2 {
+    font-size: 22px;
+    margin: 0px 0px 10px 0px;
+ 
+}
+
+.expert-section .expart-right p {
+    width: 100%;
+    font-size: 11px;
+    margin: 0px 0px 10px 0px;
+}
+
+/*=========================
+   ** Service code ***
+   =========================*/
+
+   .services {
+    width: 100%;
+    padding: 30px 0px;
+
+}
+ .services .title h1 {
+    font-size: 22px;
+    margin: 10px 0px 10px 0px;
+   
+}
+.services .title  p {
+    width: 100%;
+    font-size: 11px;
+}
+.services .service-box {
+    width: 100%;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+.services .service-box h4 {
+    font-size: 11px;
+    margin: 0px 0px 10px;
+    
+}
+
+/*=========================
+   ** reason code ***
+   =========================*/
+
+ .reason {
+    width: 100%;
+    padding: 30px 0px 0px;
+    margin: 0px 0px -250px;
+   
+}
+ .reason  .reason-inner h2 {
+    width: 100%;
+    margin: 10px 10px 10px;
+    font-size: 22px;
+    
+}
+ .reason p {
+    font-size: 11px;
+    margin: 10px 10px 10px;
+ 
+}
+.desktop{
+	display: none;
+}
+.mobile{
+    display: block; 
+  }
+
+  /*=========================
+   ** video code ***
+   =========================*/
+.video {
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+.video .video-inner h2 {
+    font-size: 22px;
+    
+}
+.video .video-inner p {
+    width: 100%;
+    font-size: 11px;
+    
+}
+
+  /*=========================
+   **testimonial  code ***
+   =========================*/
+.testimonial {
+    width: 100%;
+    padding: 30px 0px;
+}
+.testimonial .title h1 {
+    font-size: 22px;
+    margin: 10px 0px 10px 0px;
+    
+}   
+.testimonial .title  p {
+    width: 100%;
+    font-size: 11px;
+    
+}
+.client-box {
+    width: 100%;
+    margin: 10px 0px 10px;
+    
+}
+.client-box p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.client-box p .name {
+    font-size: 11px;
+    
+}
+.client-box p .info {
+    font-size: 11px;
+    
+}
+  /*=========================
+   **footer  code ***
+   =========================*/
+.footer {
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+.get h2 {
+    margin: 10px 0px 10px;
+    font-size: 22px;
+    text-align: left;
+   
+}
+.get-button .btn-info {
+    padding: 10px 15px;
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+}
+.inner-footer .img-logo {
+    padding: 10px 0px 10px 0px;
+}
+.inner-footer p {
+    width: 100%;
+    margin: 10px 0px 10px;
+    padding: 10px 10px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.inner-footer .fa {
+    font-size: 12px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px 0px 10px 0px;
+}
+.footer .outer-footer .col-md-3 {
+    width: 100%;
+    margin: 10px 10px 10px;
+  
+}
+.footer .outer-footer ul li {
+    padding: 5px 0px 5px;
+    font-size: 11px;
+
+}
+
+
+
+
+
+	/*css end*/
+}
+
+/*
+##DEvice = Most of the smartphones mobiles(galaxi fold)
+##Screen = B/w 320px to 480px
+
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	/*css start*/
+
+.header .navbar-toggler{
+	    border: 1px solid #473BF0;
+        border-radius: 3px;
+    
+
+
+}
+.header .navbar-toggler:focus {
+    text-decoration: none;
+    background: #473BF0;
+    outline: 0;
+    box-shadow: 0 0 2 #473BF0;
+}
+
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+
+.header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+        font-weight: 300;
+	
+}
+/*=========================
+   ** header menu code ***
+   =========================*/
+
+
+.header .navbar .navbar-nav .nav-item .nav-link{
+	margin: 0px 0px 0px 0px;
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px 0px;
+}
+
+ /*=========================
+   ** banner code ***
+   =========================*/
+   .banner{
+   	padding: 35px 0px 0px;
+   }
+   .banner-inner {
+ 
+    padding: 10px 0px 35px;
+}
+   .banner-inner h1{
+     width: 100%;
+     font-size: 32px;
+     line-height: 1.3em;
+     margin: 0px 0px 10px 0px;
+    }
+
+   .banner-inner p{
+   	 width: 100%;
+     font-size: 14px;
+     margin: 0px 0px 10px 0px;
+
+   }
+   .banner-inner .btn-info {
+   	  font-size: 13px;
+      margin: 10px 0px 0px;
+    }
+   
+   .banner-inner .link {
+    margin: 10px 0px 0px 0px;
+    font-size: 12px;
+    
+}
+
+ /*=========================
+   ** alart  code ***
+   =========================*/
+   .alert-section {
+    padding: 20px 0px;
+
+   }
+
+   .alert-section p{
+   	font-size: 14px;
+   }
+
+
+   /*=========================
+   ** expart code ***
+   =========================*/
+   .expert-section {
+    padding: 35px 0px;
+}
+  .expert-section .expart-inner {
+    padding: 0px 0px 35px;
+}
+
+ .expert-section .expart-inner h2 {
+    font-size: 26px;
+    margin: 0px 0px 10px 0px;   
+}
+ .expert-section .expart-inner p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px; 
+}
+  .expert-section .expart-inner .btn-info {
+    padding: 10px 15px;
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+}
+.expert-section .img-fluid {
+    width: 100%;
+    
+}
+.expert-section .expart-right h2 {
+    font-size: 26px;
+    margin: 0px 0px 10px 0px;
+ 
+}
+
+.expert-section .expart-right p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+
+/*=========================
+   ** Service code ***
+   =========================*/
+
+   .services {
+    width: 100%;
+    padding: 35px 0px;
+
+}
+ .services .title h1 {
+    font-size: 26px;
+    margin: 10px 0px 10px 0px;
+   
+}
+.services .title  p {
+    width: 100%;
+    font-size: 14px;
+}
+.services .service-box {
+    width: 100%;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+.services .service-box h4 {
+    font-size: 16px;
+    margin: 0px 0px 10px;
+    
+}
+
+/*=========================
+   ** reason code ***
+   =========================*/
+
+ .reason {
+    width: 100%;
+    padding: 35px 0px 0px;
+    margin: 0px 0px -250px;
+   
+}
+ .reason  .reason-inner h2 {
+    width: 100%;
+    margin: 10px 10px 10px;
+    font-size: 29px;
+    
+}
+ .reason p {
+    font-size: 16px;
+    margin: 10px 10px 10px;
+ 
+}
+.desktop{
+	display: none;
+}
+.mobile{
+    display: block; 
+  }
+
+  /*=========================
+   ** video code ***
+   =========================*/
+.video {
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+.video .video-inner h2 {
+    font-size: 26px;
+    
+}
+.video .video-inner p {
+    width: 100%;
+    font-size: 14px;
+    
+}
+
+  /*=========================
+   **testimonial  code ***
+   =========================*/
+.testimonial {
+    width: 100%;
+    padding: 35px 0px;
+}
+.testimonial .title h1 {
+    font-size: 26px;
+    margin: 10px 0px 10px 0px;
+    
+}   
+.testimonial .title  p {
+    width: 100%;
+    font-size: 14px;
+    
+}
+.client-box {
+    width: 100%;
+    margin: 10px 0px 10px;
+    
+}
+.client-box p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.client-box p .name {
+    font-size: 14px;
+    
+}
+.client-box p .info {
+    font-size: 14px;
+    
+}
+  /*=========================
+   **footer  code ***
+   =========================*/
+.footer {
+    width: 100%;
+    padding: 35px 0px;
+    
+}
+.get h2 {
+    margin: 10px 0px 10px;
+    font-size: 22px;
+    text-align: left;
+   
+}
+.get-button .btn-info {
+    padding: 10px 15px;
+    margin: 0px 0px 0px 0px;
+    font-size: 13px;
+}
+.inner-footer .img-logo {
+    padding: 10px 0px 10px 0px;
+}
+.inner-footer p {
+    width: 100%;
+    margin: 10px 0px 10px;
+    padding: 10px 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.inner-footer .fa {
+    font-size: 16px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px 0px 10px 0px;
+}
+.footer .outer-footer .col-md-3 {
+    width: 100%;
+    margin: 10px 10px 10px;
+  
+}
+.footer .outer-footer ul li {
+    padding: 5px 0px 5px; 
+    font-size: 16px;
+
+}
+
+
+	/*css end*/
+}
+
+
+
+/*
+##DEvice = Most of the smartphones mobiles(galaxi fold)
+##Screen = B/w 279px to 319px
+
+*/
+
+@media (min-width:481px) and (max-width:767px) {
+	/*css start*/
+
+
+.header .navbar-toggler{
+	    border: 1px solid #473BF0;
+        border-radius: 3px;
+    
+
+
+}
+.header .navbar-toggler:focus {
+    text-decoration: none;
+    background: #473BF0;
+    outline: 0;
+    box-shadow: 0 0 2 #473BF0;
+}
+
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+
+.header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+        font-weight: 300;
+	
+}
+/*=========================
+   ** header menu code ***
+   =========================*/
+
+
+.header .navbar .navbar-nav .nav-item .nav-link{
+	margin: 0px 0px 0px 0px;
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px 0px;
+}
+
+
+ /*=========================
+   ** banner code ***
+   =========================*/
+   .banner{
+   	padding: 40px 0px 0px;
+   }
+   .banner-inner {
+ 
+    padding: 15px 0px 40px;
+}
+   .banner-inner h1{
+     width: 100%;
+     font-size: 44px;
+     line-height: 1.3em;
+     margin: 0px 0px 15px 0px;
+    }
+
+   .banner-inner p{
+   	 width: 100%;
+     font-size: 18px;
+     margin: 0px 0px 15px 0px;
+
+   }
+   .banner-inner .btn-info {
+   	  font-size: 14px;
+      margin: 10px 0px 0px;
+    }
+   
+   .banner-inner .link {
+    margin: 15px 0px 0px 0px;
+    font-size: 14px;
+    
+}
+
+
+ /*=========================
+   ** alart  code ***
+   =========================*/
+   .alert-section {
+    padding: 25px 0px;
+
+   }
+
+   .alert-section p{
+   	font-size: 16px;
+   }
+
+
+   /*=========================
+   ** expart code ***
+   =========================*/
+   .expert-section {
+    padding: 40px 0px;
+}
+  .expert-section .expart-inner {
+    padding: 0px 0px 40px;
+}
+
+ .expert-section .expart-inner h2 {
+    font-size: 28px;
+    margin: 0px 0px 15px 0px;   
+}
+ .expert-section .expart-inner p {
+    width: 100%;
+    font-size: 18px;
+    margin: 0px 0px 15px 0px; 
+}
+  .expert-section .expart-inner .btn-info {
+    padding: 10px 20px;
+    margin: 10px 0px 0px 0px;
+    font-size: 16px;
+}
+.expert-section .img-fluid {
+    width: 100%;
+    
+}
+.expert-section .expart-right h2 {
+    font-size: 28px;
+    margin: 0px 0px 15px 0px;
+ 
+}
+
+.expert-section .expart-right p {
+    width: 100%;
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
+}
+
+/*=========================
+   ** Service code ***
+   =========================*/
+
+   .services {
+    width: 100%;
+    padding: 40px 0px;
+
+}
+ .services .title h1 {
+    font-size: 28px;
+    margin: 10px 0px 10px 0px;
+   
+}
+.services .title  p {
+    width: 100%;
+    font-size: 18px;
+}
+.services .service-box {
+    width: 100%;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+.services .service-box h4 {
+    font-size: 20px;
+    margin: 0px 0px 10px;
+    
+}
+
+/*=========================
+   ** reason code ***
+   =========================*/
+
+ .reason {
+    width: 100%;
+    padding: 40px 0px 0px;
+    margin: 0px 0px -250px;
+   
+}
+ .reason  .reason-inner h2 {
+    width: 100%;
+    margin: 10px 10px 10px;
+    font-size: 30px;
+    
+}
+ .reason p {
+    font-size: 18px;
+    margin: 10px 10px 10px;
+ 
+}
+.desktop{
+	display: none;
+}
+.mobile{
+    display: block; 
+  }
+
+  /*=========================
+   ** video code ***
+   =========================*/
+.video {
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+.video .video-inner h2 {
+    font-size: 30px;
+    
+}
+.video .video-inner p {
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+  /*=========================
+   **testimonial  code ***
+   =========================*/
+.testimonial {
+    width: 100%;
+    padding: 40px 0px;
+}
+.testimonial .title h1 {
+    font-size: 28px;
+    margin: 10px 0px 10px 0px;
+    
+}   
+.testimonial .title  p {
+    width: 100%;
+    font-size: 18px;
+    
+}
+.client-box {
+    width: 100%;
+    margin: 10px 0px 10px;
+    
+}
+.client-box p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.client-box p .name {
+    font-size: 18px;
+    
+}
+.client-box p .info {
+    font-size: 18px;
+    
+}
+  /*=========================
+   **footer  code ***
+   =========================*/
+.footer {
+    width: 100%;
+    padding: 40px 0px;
+    
+}
+.get h2 {
+    margin: 10px 0px 10px;
+    font-size: 30px;
+    text-align: left;
+   
+}
+.get-button .btn-info {
+    padding: 10px 15px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+}
+.inner-footer .img-logo {
+    padding: 10px 0px 10px 0px;
+}
+.inner-footer p {
+    width: 100%;
+    margin: 10px 0px 10px;
+    padding: 10px 10px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.inner-footer .fa {
+    font-size: 18px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px 0px 10px 0px;
+}
+.footer .outer-footer .col-md-3 {
+    width: 100%;
+    margin: 10px 10px 10px;
+  
+}
+.footer .outer-footer ul li {
+    padding: 5px 0px 10px;
+    font-size: 18px;
+
+}
+
+
+
+
+	/*css end*/
+}
+
+
+/*
+##DEvice = Most of the smartphones mobiles(galaxi fold)
+##Screen = B/w 279px to 319px
+
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+	/*css start*/
+
+
+.header .navbar-toggler{
+	    border: 1px solid #473BF0;
+        border-radius: 3px;
+    
+
+
+}
+.header .navbar-toggler:focus {
+    text-decoration: none;
+    background: #473BF0;
+    outline: 0;
+    box-shadow: 0 0 2 #473BF0;
+}
+
+.header .navbar-toggler:focus .fa{
+	color: #fff;
+}
+
+.header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+        font-weight: 300;
+	
+}
+/*=========================
+   ** header menu code ***
+   =========================*/
+
+
+.header .navbar .navbar-nav .nav-item .nav-link{
+	margin: 0px 0px 0px 0px;
+}
+.header .navbar-nav .nav-item .btn-info{
+	margin: 10px 0px 0px 0px;
+}
+
+ /*=========================
+   ** banner code ***
+   =========================*/
+   .banner{
+   	padding: 35px 0px 0px;
+   }
+   .banner-inner {
+ 
+    padding: 10px 0px 35px;
+}
+   .banner-inner h1{
+     width: 100%;
+     font-size: 46px;
+     line-height: 1.3em;
+     margin: 0px 0px 10px 0px;
+    }
+
+   .banner-inner p{
+   	 width: 100%;
+     font-size: 20px;
+     margin: 0px 0px 10px 0px;
+
+   }
+   .banner-inner .btn-info {
+   	  font-size: 13px;
+      margin: 10px 0px 0px;
+    }
+   
+   .banner-inner .link {
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+    
+   }
+   .banner .ipad-text-center{
+   	text-align: center;
+
+   }
+   
+ /*=========================
+   ** alart  code ***
+   =========================*/
+   .alert-section {
+    padding: 30px 0px;
+
+   }
+
+   .alert-section p{
+   	font-size: 22px;
+   }
+
+
+   /*=========================
+   ** expart code ***
+   =========================*/
+   .expert-section {
+    padding: 45px 0px;
+}
+  .expert-section .expart-inner {
+    padding: 0px 0px 45px;
+}
+
+ .expert-section .expart-inner h2 {
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;   
+}
+ .expert-section .expart-inner p {
+    width: 100%;
+    font-size: 22px;
+    margin: 0px 0px 18px 0px; 
+}
+  .expert-section .expart-inner .btn-info {
+    padding: 10px 20px;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+.expert-section .img-fluid {
+    width: 100%;
+    
+}
+.expert-section .expart-right h2 {
+    font-size: 32px;
+    margin: 0px 0px 15px 0px;
+ 
+}
+
+.expert-section .expart-right p {
+    width: 100%;
+    font-size: 22px;
+    margin: 0px 0px 15px 0px;
+}
+
+/*=========================
+   ** Service code ***
+   =========================*/
+
+   .services {
+    width: 100%;
+    padding: 45px 0px;
+
+}
+ .services .title h1 {
+    font-size: 30px;
+    margin: 15px 0px 15px 0px;
+   
+}
+.services .title  p {
+    width: 100%;
+    font-size: 20px;
+}
+.services .service-box {
+    width: 100%;
+    padding: 0px 15px;
+    margin: 15px 0px;
+}
+.services .service-box h4 {
+    font-size: 22px;
+    margin: 0px 0px 15px;
+    
+}
+
+/*=========================
+   ** reason code ***
+   =========================*/
+
+ .reason {
+    width: 100%;
+    padding: 45px 0px 0px;
+    margin: 0px 0px -250px;
+   
+}
+ .reason  .reason-inner h2 {
+    width: 100%;
+    margin: 15px 15px 15px;
+    font-size: 32px;
+    
+}
+ .reason p {
+    font-size: 20px;
+    margin: 15px 15px 15px;
+ 
+}
+.desktop{
+	display: none;
+}
+.mobile{
+    display: block; 
+  }
+
+  /*=========================
+   ** video code ***
+   =========================*/
+.video {
+    width: 100%;
+    padding: 45px 0px;
+    
+}
+.video .video-inner h2 {
+    font-size: 30px;
+    
+}
+.video .video-inner p {
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+  /*=========================
+   **testimonial  code ***
+   =========================*/
+.testimonial {
+    width: 100%;
+    padding: 45px 0px;
+}
+.testimonial .title h1 {
+    font-size: 30px;
+    margin: 15px 0px 15px 0px;
+    
+}   
+.testimonial .title  p {
+    width: 100%;
+    font-size: 20px;
+    
+}
+.client-box {
+    width: 100%;
+    margin: 15px 0px 15px;
+    
+}
+.client-box p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.client-box p .name {
+    font-size: 20px;
+    
+}
+.client-box p .info {
+    font-size: 20px;
+    
+}
+  /*=========================
+   **footer  code ***
+   =========================*/
+.footer {
+    width: 100%;
+    padding: 45px 0px;
+    
+}
+.get h2 {
+    margin: 15px 0px 15px;
+    font-size: 30px;
+    text-align: left;
+   
+}
+.get-button .btn-info {
+    padding: 10px 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+}
+.inner-footer .img-logo {
+    padding: 15px 0px 15px 0px;
+}
+.inner-footer p {
+    width: 100%;
+    margin: 15px 0px 15px;
+    padding: 15px 105x 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.inner-footer .fa {
+    font-size: 20px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px 0px 10px 0px;
+}
+.footer .outer-footer .col-md-3 {
+    width: 100%;
+    margin: 15px 15px 15px;
+  
+}
+.footer .outer-footer ul li {
+    padding: 10px 0px 15px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+	/*css end*/
+}
+
